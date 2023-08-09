@@ -1,6 +1,6 @@
-html{
+/* html{
   font-size: 62.5%;
-}
+} */
 
 body{
   
@@ -50,15 +50,17 @@ button[disabled]{
   cursor: default;
 }
 
-@media  (max-width:768px) {
+@media  (max-width:800px) {
   .timer{
-    font-size: 5rem;
-    width: 350px;
-    margin: 2rem auto;
+    font-size: 3rem;
+    width: 270px;
+    margin: 1rem auto;
   }
   button{
     font-size: 1.5rem;
-    padding: 1rem 2rem;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    margin: 0.5rem;
   }
  
   
